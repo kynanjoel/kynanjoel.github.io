@@ -1,10 +1,11 @@
-.siteheader{
+.site-header{
   margin: auto;
   text-align: center;
   font-family: Arial sans-serif;
+  color= #0f0f0f;
 }
 
-.siteheader p{
+.site-header p{
   font-style: italic;
 }
 
