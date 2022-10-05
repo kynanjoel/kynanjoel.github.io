@@ -1,7 +1,7 @@
 .site-header{
   margin: auto;
   text-align: center;
-  font-family: Arial sans-serif;
+  font: "Fira Sans", sans-serif;
   color= #0f0f0f;
 }
 
