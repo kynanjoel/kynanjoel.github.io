@@ -13,19 +13,22 @@ html{
 .site-header p{
   font-style: italic;
   color: #a055AA;
+  font-size: 0.5em;
+  margin-top: 0;
 }
 
 .site-header h1{
  font-weight: bold;
  font-size 2rem;
  background-color: #20A093;
- color: #211d14
+ color: #211d14;
+ width: 50vw;
 }
 
 .profile-pic{
   display: block;
-  max-width: 90vw;
-  min-width: 90vw;
+  max-width: 100vw;
+  min-width: 100vw;
   margin: auto;
 }
 
@@ -34,4 +37,5 @@ html{
  justify-content: space-evenly;
  background-color: #211d14;
  color: #8ed3e8;
+ padding: 15px;
 }
