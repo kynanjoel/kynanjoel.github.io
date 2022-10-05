@@ -1,9 +1,16 @@
 .siteheader{
   margin: auto;
+  text-align: center;
+  font-family: Arial sans-serif;
+}
+
+.siteheader p{
+  font-style: italic;
 }
 
 .profile-pic{
   display: block;
-  max-width:300px;
+  max-width:600px;
+  min-width: 300px;
   margin: auto;
 }
