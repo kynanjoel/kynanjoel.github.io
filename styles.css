@@ -21,6 +21,10 @@ html{
  width: auto;
  margin: auto;
  padding: 5px;
+ display: block;
+ max-width: 100vw;
+ min-width: 100vw;
+ margin: auto;
 }
 
 .profile-pic{
@@ -42,6 +46,10 @@ html{
 .site-index span:hover{
  background-color: #8ed3e8; 
  color: #211d14;
+}
+
+.site-index a{
+  font-style: initial;
 }
 
 .profile-div p{
