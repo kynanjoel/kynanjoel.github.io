@@ -24,6 +24,7 @@ html{
  color: #211d14;
  width: auto;
  margin: auto;
+ padding: 5px;
 }
 
 .profile-pic{
@@ -49,4 +50,13 @@ html{
 
 .profile-div p{
   text-align: center;
+}
+
+.portfo h1{
+  text-align: center;
+  background-color: #8ed3e8;
+}
+
+.portfo div{
+  background-color: #a055aa;
 }
