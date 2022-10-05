@@ -2,12 +2,12 @@ html{
  width: 100%;
  height: 100%;
  margin: 0;
+ font-family: Arial;
 }
 
 .site-header{
   margin: auto;
   text-align: center;
-  font: "Fira Sans", sans-serif;
 }
 
 .site-header p{
@@ -22,7 +22,7 @@ html{
  font-size 2rem;
  background-color: #20A093;
  color: #211d14;
- width: 50vw;
+ width: auto;
  margin: auto;
 }
 
@@ -39,4 +39,14 @@ html{
  background-color: #211d14;
  color: #8ed3e8;
  padding: 15px;
+ width: 100vw;
+}
+
+.site-index span:hover{
+ background-color: #8ed3e8; 
+ color: #211d14;
+}
+
+.profile-div p{
+  text-align: center;
 }
