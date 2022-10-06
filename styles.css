@@ -37,8 +37,9 @@ main{
   display: block;
   max-width: 100vw;
   min-width: 100vw;
-  margin: auto 0 1px 0;
-  border-radius: 4px;
+  margin: 5px 1px;
+  padding: 5px 2px;
+  border-radius: 15px;
 }
 
 .site-index{
@@ -47,7 +48,8 @@ main{
  background-color: #211d14;
  color: #8ed3e8;
  width: 100vw;
- margin: auto 0 1px 0;
+ margin: 5px 1px;
+ padding: 5px 2px;
 }
 
 .site-index a{
@@ -73,15 +75,15 @@ main{
 .portfo h1{
   text-align: left;
   background-color: #8ed3e8;
-  width: auto;
-  padding: 5px;
   display: box;
   border-radius: 15px;
-  margin: auto 0 1px 0;
+  margin: 5px 1px;
+  padding: 5px 2px;
 }
 
 .portfo div{
   background-color: #a055aa;
   width: auto;
-  margin: auto 0 1px 0;
+  margin: 5px 1px;
+  padding: 5px 2px;
 }
