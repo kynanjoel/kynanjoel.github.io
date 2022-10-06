@@ -36,7 +36,7 @@ main{
   max-width: 100vw;
   min-width: 100vw;
   margin: auto;
-  border-radius: 50%;
+  border-radius: 15px;
 }
 
 .site-index{
@@ -72,12 +72,13 @@ main{
   background-color: #8ed3e8;
   width: auto;
   padding: 5px;
+  display: box;
+  border-radius: 15px;
+  margin: 0;
 }
 
 .portfo div{
   background-color: #a055aa;
   width: auto;
   margin: auto;
-  display: box;
-  border-radius: 15px;
 }
