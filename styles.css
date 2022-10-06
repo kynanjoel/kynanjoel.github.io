@@ -43,18 +43,24 @@ html{
  width: 100vw;
 }
 
-.site-index span:hover{
- background-color: #8ed3e8; 
- color: #211d14;
-}
-
 .site-index a{
   font-style: initial;
+}
+
+.site-index a:link, .site-index a:visited{
+ font-style: initial;
+ color:  #8ed3e8;
+}
+
+.site-index a:hover{
+ background-color: #8ed3e8; 
+ color: #211d14;
 }
 
 .profile-div p{
   text-align: center;
 }
+
 
 .portfo h1{
   text-align: left;
