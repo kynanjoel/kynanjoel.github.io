@@ -81,7 +81,7 @@ main{
 .portfo h1{
   text-align: left;
   background-color: #8ed3e8;
-  display: box;
+  display: inline-block;
   border-radius: 15px;
   margin: 5px 1px;
   padding: 5px 2px;
