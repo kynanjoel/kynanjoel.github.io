@@ -5,6 +5,10 @@ html{
  font-family: Arial;
 }
 
+main{
+ overflow: hidden;
+}
+
 .site-header{
   margin: auto;
   text-align: center;
