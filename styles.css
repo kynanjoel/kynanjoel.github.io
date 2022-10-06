@@ -4,10 +4,14 @@ html{
 }
 
 main{
- width: 95vw;
+ width: 100vw;
  margin: 0;
  overflow: hidden;
  background-color: #211d14;
+}
+
+*{
+  outline: 2px solid white;
 }
 
 .site-header{
@@ -67,8 +71,10 @@ main{
 }
 
 .profile-div p{
-  text-align: right;
+  text-align: left;
   color: white;
+  padding 2px;
+  max-width: 75vw;
 }
 
 
