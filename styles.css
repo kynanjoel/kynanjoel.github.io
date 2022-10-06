@@ -32,6 +32,7 @@ html{
   max-width: 100vw;
   min-width: 100vw;
   margin: auto;
+  border-radius: 50%;
 }
 
 .site-index{
@@ -71,6 +72,8 @@ html{
 
 .portfo div{
   background-color: #a055aa;
-  width: 50vw;
+  width: auto;
   margin: auto;
+  display: box;
+  border-radius: 15px;
 }
