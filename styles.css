@@ -144,10 +144,10 @@ body{
     padding: .5rem 1.25rem 0.25rem 1.25rem;
 }
 
-.content a:hover{color:black; background-color: deepskyblue;
+/*.content a:hover{color:black; background-color: deepskyblue;
     animation-name: fade-in-anim;
     animation-duration: .5s;
-}
+}*/
 
 .frame-body{
     position: absolute;
