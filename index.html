@@ -12,9 +12,11 @@
                 <div class="flex-div">
                     <div><h1 class="nav-logo">MAGIC POINT</h1></div>
                     <div class="drop-down">
-                        <h1 class="menu-button">MENU</h1>
-                        <div class="nav-links">
+                        
+                        <button type="button" class="collapsible">MENU <img src="menu.png"></button>
+                        <div class="content">
                             <a href="page_1.html" target="mainframe-display">TECHNO</a> 
+                            <a href="gumpage.html" target="mainframe-display">DEVICES</a> 
                             <a href="page_2.html" target="mainframe-display">VISUALS</a>
                             <a href="page_3.html" target="mainframe-display">SCORING</a>
                             <!--<a href="page_4.html" target="mainframe-display">CODING</a>-->
@@ -29,5 +31,35 @@
                 <iframe src="profile.html" name="mainframe-display"></iframe>
             </div>
         </main>
+
+        <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var coll_ = document.getElementsByClassName("content")
+            var i;
+            
+            for (i = 0; i < coll.length; i++) {
+              coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "flex") { 
+                  content.style.display = "none";
+                } else {
+                  content.style.display = "flex";
+                }
+              });
+            }
+
+            for (i = 0; i < coll_.length; i++) {
+              coll_[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content_ = this;
+                if (content_.style.display === "flex") { 
+                  content_.style.display = "none";
+                } else {
+                  content_.style.display = "flex";
+                }
+              });
+            }
+            </script>
     </body>
 </html>
