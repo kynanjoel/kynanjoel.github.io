@@ -3,7 +3,6 @@ body{
     font-family: OCR A Std, monospace;
     max-height: 100vh;
     max-width: 100vw;
-    /* overflow:hidden; */
     overflow-x: hidden;
 }
 
@@ -41,9 +40,6 @@ body{
 
 .nav-logo{
     color:azure;
-    /* margin-left:15px; */
-    /* margin: auto 15px;
-    padding-bottom: 0; */
     max-height: 10vh;
 }
 
@@ -73,13 +69,6 @@ body{
     from{}
     to{background-color: none;}
 }
-
-/* .drop-down h1{
-    color:azure;
-    outline: white dashed 2px;
-    margin: auto 15px 0;
-    max-height: 10vh;
-} */
 
 .collapsible{
   background-color: #777;
@@ -114,17 +103,6 @@ body{
     to{}
 }
 
-/* .drop-down:hover .nav-links{
-    animation-name: fade-in-anim;
-    animation-duration: .5s;
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    right:10px;
-    background-color: black;
-    box-shadow: 0 0 .5rem .5rem black;
-} */
-
 .content{
     animation-name: fade-in-anim;
     animation-duration: .5s;
@@ -143,11 +121,6 @@ body{
     outline: white dashed 2px;
     padding: .5rem 1.25rem 0.25rem 1.25rem;
 }
-
-/*.content a:hover{color:black; background-color: deepskyblue;
-    animation-name: fade-in-anim;
-    animation-duration: .5s;
-}*/
 
 .frame-body{
     position: absolute;
@@ -180,6 +153,7 @@ body{
 
 .prof-img{
     width: 100%;
+    max-width: 350px;
 }
 
 .page-1{
