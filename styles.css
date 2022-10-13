@@ -152,6 +152,7 @@ body{
 }
 
 .prof-img{
+    display: block;
     width: 100%;
     max-width: 560px;
     margin: 0 auto;
@@ -201,7 +202,8 @@ h2, h3{
 
 .prof-para{
     text-align: center;
-    
+    padding-left: 15px;
+    padding-right: 15px;
     padding-bottom: 10px;
 }
 
