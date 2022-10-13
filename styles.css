@@ -154,6 +154,8 @@ body{
 .prof-img{
     width: 100%;
     max-width: 560px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .page-1{
