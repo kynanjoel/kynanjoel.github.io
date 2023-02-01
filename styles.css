@@ -159,9 +159,10 @@ body{
 }
 
 .page-1{
-display: flex;
-flex-wrap: wrap;
-justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .techno-title{
